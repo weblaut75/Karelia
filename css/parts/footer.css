@@ -1,0 +1,31 @@
+.footer {
+  background-color: var(--logo-color);
+  color: #fff;
+}
+
+.footer .header__top {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.footer .header__logo,
+.footer .header__bottom__menu ul li a,
+.footer .contacts--time,
+.footer .contacts--phone {
+  color: #fff;
+}
+
+.footer a:hover,
+.footer .header__bottom__menu ul li a:hover {
+  color: var(--green-color_2);
+}
+
+.footer .header__bottom__menu ul li a::after {
+  display: none;
+}
+
+.copy {
+  border-top: 1px solid var(--black-color_2);
+  padding: 1.25rem 0;
+  text-align: center;
+}

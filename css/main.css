@@ -1,0 +1,49 @@
+@import 'parts/reset.css';
+@import 'parts/settings.css';
+@import 'parts/common.css';
+
+
+
+/* USER STYLES */
+@import 'parts/header.css';
+@import 'parts/footer.css';
+@import 'parts/hero.css';
+@import 'parts/catr.css';
+@import 'parts/attractions.css';
+
+.reviews__item {
+  padding-bottom: 64.864865%;
+  border-radius: var(--border-radius);
+  /* 240/370 */
+  overflow: hidden;
+}
+
+.video__item {
+  padding-bottom: 64.864865%;
+  /* 240/370 */
+}
+
+.blog__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+}
+
+.blog__inner {
+  display: grid;
+  gap: 1.875rem;
+  grid-template-columns: repeat(auto-fit, minmax(17.5rem, 1fr));
+  padding-bottom: 1.875rem;
+}
+
+.blog__item .cart__small {
+  margin-bottom: .3125rem;
+}
+
+.blog__item .cart__text {
+  margin-bottom: .3125rem;
+}

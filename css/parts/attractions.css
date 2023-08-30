@@ -1,0 +1,19 @@
+.attractions {}
+
+.attractions__list {
+  display: grid;
+  gap: 1.875rem;
+  grid-template-columns: repeat(auto-fit, minmax(17.5rem, 1fr));
+  padding-bottom: 1.875rem;
+}
+
+@media (max-width: 660px) {
+  .popular__sl {
+    margin: 0 -0.9375rem;
+  }
+
+  .popular__sl .slick-slide {
+    padding: 0px 5px;
+  }
+
+}
